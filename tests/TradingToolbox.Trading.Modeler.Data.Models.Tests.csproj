@@ -8,12 +8,11 @@
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Project.Config.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Coverage.props" />
 	<PropertyGroup>
-	  <ReleaseVersion></ReleaseVersion>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-		<PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
-		<PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+		<PackageReference Include="MSTest.TestAdapter" Version="3.4.1" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.4.1" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\src\TradingToolbox.Trading.Modeler.Data.Models.csproj" />
